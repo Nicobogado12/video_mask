@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:wght@700&family=Koulen&family=Marvel&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Marvel', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+    background: #000;
+    color: #fff;
+    font-family: 'Marvel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container{
+    position: relative;
+
+}
+
+.comic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo{
+    background: #000;
+    font-size: 20rem;
+    text-align: center;
+    font-weight: 700;
+    mix-blend-mode: multiply;
+}
